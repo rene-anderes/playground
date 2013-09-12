@@ -4,7 +4,7 @@ public class MyGitClass {
 
 	private String version;
 
-	public MyGitClass(String version) {
+	public MyGitClass(final String version) {
 		super();
 		this.version = version;
 	}
